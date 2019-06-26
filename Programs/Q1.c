@@ -1,3 +1,4 @@
+// to insert an element at the nth position
 #include<stdio.h>
 #include<stdlib.h>
 int main()
