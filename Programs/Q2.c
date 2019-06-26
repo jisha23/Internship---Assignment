@@ -1,3 +1,4 @@
+// to find the prime numbers between a given range
 #include<stdio.h>
 int main()
 {
