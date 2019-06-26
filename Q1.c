@@ -4,11 +4,11 @@ int main()
 {
     int a[100], n, e, p, i;
     printf("\nEnter the number of elements(max 100)");
-    scanf("%d",&n);
+    scanf("%d",&n); 
     printf("\nEnter the elements");
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
-    if(n==100)
+    if(n==100) //Array is full
     {
         printf("\nArray is full\n");
         exit(0);
@@ -20,7 +20,7 @@ int main()
         printf("\nInvalid\n");
         exit(0);
     }
-    printf("\nEnter the element :");
+    printf("\nEnter the element :"); //to be inserted
     scanf("%d",&e);
     printf("\nArray : ");
     for(i=0;i<n;i++)
@@ -31,7 +31,7 @@ int main()
         n++;
     }
     else
-    {
+    { 
         for(i=n-1;i>=p;i--)
             a[i+1]=a[i];
         a[p]=e;
