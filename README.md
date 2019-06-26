@@ -7,3 +7,5 @@ This repository contains 3 programs done as a part of an internship assignment.
 2.  Write a program to display prime numbers between 2 intervals without using any inbuilt functions.
 
 3. How to find the missing number in the given integer array of 1 to 100 without using any inbuilt functions.
+
+The programs can be compiled and run using the commands :- gcc Q1.c and ./a.out respectively.
